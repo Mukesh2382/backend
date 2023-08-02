@@ -1,0 +1,40 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .paginate-button {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    cursor: pointer;
+ }
+div.content{
+   max-width: 100%;
+}
+ .book-post{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 5px 5px 10px 2px #737373;
+ }
+ 
+ .paginate-button.active{
+   color : blue;
+ }
+ .pagination-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .is-layout-constrained{
+   max-width: 100%;
+ }
+
+ /* .entry-content.wp-block-post-content.has-global-padding.is-layout-constrained{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+ } */
